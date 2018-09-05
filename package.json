@@ -3,17 +3,18 @@
   "main": "./read-or-fetch.js",
   "version": "0.2.0",
   "description": "Try to get a file using either fs or fetch, whichever is available.",
-  "repository": "https://github.com/isysd/read-or-fetch",
+  "repository": "https://bitbucket.org/guld/tech-js-node_modules-read-or-fetch",
   "author": "isysd <public@iramiller.com>",
   "license": "MIT",
   "scripts": {
     "test": "mocha",
     "lint": "eslint --env browser *.js* && eslint --env node *.js*",
-    "fix": "eslint --fix *.js*"
+    "fix": "eslint --fix *.js*",
+    "test:lint": "npm run lint && npm run test"
   },
   "dependencies": {
     "blob-to-buffer": "^1.2.7",
-    "pify": "git+https://github.com/isysd/pify.git"
+    "pify": "*"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -37,5 +38,11 @@
   ],
   "engines": {
     "node": ">=10"
-  }
+  },
+  "readme": "README.md",
+  "homepage": "https://guld.tech/lib/read-or-fetch.html",
+  "keywords": [
+    "guld",
+    "node"
+  ]
 }
