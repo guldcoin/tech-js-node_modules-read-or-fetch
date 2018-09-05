@@ -1,7 +1,7 @@
 {
   "name": "read-or-fetch",
   "main": "./read-or-fetch.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Try to get a file using either fs or fetch, whichever is available.",
   "repository": "https://bitbucket.org/guld/tech-js-node_modules-read-or-fetch",
   "author": "isysd <public@iramiller.com>",
